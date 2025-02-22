@@ -1562,13 +1562,12 @@ canvas {
 }
 
 [data-theme="light"] #heading {
-  text-shadow: 0.05em 0.05em 0.3em rgba(0, 0, 0, 0.6);
+  text-shadow: -0.05em 0.02em 0.1em rgba(0, 0, 0, 0.6);
 }
 
 [data-theme="dark"] #heading {
-  text-shadow: -0.08em 0.03em 0.12em rgba(255, 255, 255, 0.7);
+  text-shadow: -0.05em 0.02em 0.1em rgba(255, 255, 255, 0.6);
 }
-
 #subtitle {
   font-size: 3vw;
   font-weight: 800;
