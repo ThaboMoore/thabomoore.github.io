@@ -21,10 +21,10 @@ nav_exclude: # The following paths are excluded from navbar
 author:
   name: Nilavan Akilan
   image: assets/img/linkedin_profile_2.jpg
-  email: nilavanakilan2001@gmail.com
+  #email: nilavanakilan2001@gmail.com
   linkedin: nilavan-akilan
   github: Nilavan
-  kaggle: nilavanakilan
+  #kaggle: nilavanakilan
 
 ### Posts ###
 permalink: /blog/:title
