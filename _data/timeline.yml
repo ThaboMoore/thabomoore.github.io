@@ -2,7 +2,7 @@
   from: February 2022
   to: August 2025
   description: • Topic - Japanese encephalitis virus transmission at Australian piggeriesgit<br><br>• Designed and implemented novel bloodfed mosquito collection methods, gathering over 2,500 bloodfeds, including the first samples from commercial piggeries in Australia.<br><br>• Conducted extensive research and experimentation with various object and keypoint tracking methods and presented detailed findings and recommendations to the team, providing valuable insights and contributing to the project's success.
-- title: Computer Vision Intern, Artenal
+- title: Test
   from: September 2021
   to: December 2021
   description: • Collected and annotated videos of clients' farms to use as training and validation data for a real-time apple detection and classification system.<br><br>• Trained and tested multiple deep learning models to identify the most effective approach for apple detection and successfully applied the ResNet50 model for disease classification in apples.
