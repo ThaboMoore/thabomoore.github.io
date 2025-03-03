@@ -1600,3 +1600,12 @@ canvas {
   background-color: #800000 !important; /* Maroon background on hover */
 }
 
+#experience ul {
+  list-style-type: disc; /* Ensures normal bullet points */
+  color: #800000; /* Change to maroon */
+}
+
+#experience li {
+  color: #800000; /* Makes bullet points and text maroon */
+}
+
