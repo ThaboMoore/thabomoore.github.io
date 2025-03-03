@@ -1584,3 +1584,8 @@ canvas {
 
 
 @import "portfolYOU";
+
+
+.justify-text {
+  text-align: justify;
+}
