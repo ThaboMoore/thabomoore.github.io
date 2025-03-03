@@ -1589,3 +1589,14 @@ canvas {
 .justify-text {
   text-align: justify;
 }
+
+.btn-outline-primary {
+  color: #800000 !important; /* Maroon text */
+  border-color: #800000 !important; /* Maroon border */
+}
+
+.btn-outline-primary:hover {
+  color: white !important;
+  background-color: #800000 !important; /* Maroon background on hover */
+}
+
