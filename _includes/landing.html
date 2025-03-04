@@ -114,8 +114,124 @@
     <!--
     <br />
     {% include contact/index.html %}
+<div id="hero" class="col">
+  <div>
+    <h2 id="hello" class="animated fadeIn" data-wow-delay=".1s">Hello! I am</h2>
+    <h1 id="heading" class="animated fadeIn" data-wow-delay=".15s">
+      Kevin Moore.
+    </h1>
+    <br />
+    <h2
+      id="subtitle"
+      class="text-muted animated slideInUp"
+      data-wow-delay=".4s"
+    >
+      MEDICAL ENTOMOLOGIST,
+    </h2>
+    <h2
+      id="subtitle"
+      class="text-muted animated slideInUp"
+      data-wow-delay=".5s"
+    >
+      DISEASE ECOLOGIST
+    </h2>
+
+    <!-- Button Container -->
+    <div class="mt-4 d-flex gap-3">
+      <a
+        class="btn btn-outline-primary animated slideInUp"
+        data-wow-delay=".6s"
+        href="https://drive.google.com/file/d/15pgjN0ZlT0HjZnadp1AQ7Y3Z20rAZoHF/view?usp=sharing"
+        target="_blank"
+      >
+        CV
+      </a>
+      <a
+        class="btn btn-outline-primary animated slideInUp"
+        data-wow-delay=".7s"
+        href="https://www.linkedin.com/in/kevinthabomoore/"
+        target="_blank"
+      >
+        LinkedIn
+      </a>
+    </div>
   </div>
-<script src="assets/js/mosquito.js"></script>
+</div>
+<div id="about" class="container">
+  <div class="m-3 wow animated slideInUp" data-wow-delay=".15s">
+    <br /><br /><br />
+    <h2>About Me</h2>
+  </div>
+  
+  <div class="row align-items-center text-center">
+    <!-- Left Image -->
+    <div class="col-md-4">
+      <img src="assets/img/IMG_0937.jpg" alt="Fieldwork Photo" class="img-fluid rounded">
+    </div>
+
+    <!-- About Me Text -->
+<div class="col-md-4 justify-text">
+  <p>
+    From wetland to wet labs, my work revolves around 
+    understanding how mosquitoes interact with their environment and the pathogens they carry. 
+    My PhD research combines fieldwork, next-generation sequencing, and disease modelling to explore 
+    how Japanese encephalitis virus circulates at commercial pig farms in Australia. Whether in the field collecting 
+    bloodfed mosquitoes or analysing sequencing data, I am passionate about bridging the gap between 
+    science and public health.
+  </p>
+</div>
+
+    <!-- Right Image -->
+    <div class="col-md-4">
+      <img src="assets/img/IMG_0725.jpg" alt="Lab Work" class="img-fluid rounded">
+    </div>
+</div>
+</div>
+<div id="featured-projects">
+  <div class="m-3 wow animated slideInUp" data-wow-delay=".15s">
+    <br /><br /><br />
+    <h2>Latest Projects</h2>
+  </div>
+  <div class="card-columns m-3 mt-4">
+    <!-- Local Projects -->
+    {% for project in site.projects %} {%- if project.tools[-1] == "featured"
+    -%} {%- assign project_type = "local" -%} {%- assign project_id =
+    project.name | slugify -%} {%- assign project_img = project.image -%} {%-
+    assign project_name = project.name -%} {%- assign project_desc =
+    project.description -%} {%- assign project_tools = project.tools -%} {%- if
+    project.external_url -%} {%- assign project_url = project.external_url -%}
+    {%- else -%} {%- assign project_url = project.url | relative_url -%} {%-
+    endif -%} {% include projects/project-card.html %} {%- endif -%} {% endfor
+    %}
+  </div>
+  <p class="text-center">
+    {% include elements/button.html link="/projects" text="See all" %}
+  </p>
+</div>
+<div id="experience">
+  <div class="m-3 wow animated slideInUp" data-wow-delay=".15s">
+    <br /><br /><br />
+    <h2>Experience</h2>
+  </div>
+  <div class="m-3 mt-4 wow animated slideInUp" data-wow-delay=".2s">
+    {% include about/timeline.html %}
+  </div>
+</div>
+<div id="contact">
+  <div class="m-3 wow animated slideInUp" data-wow-delay=".15s">
+    <br /><br /><br />
+    <h2>Contact</h2>
+  </div>
+  <div class="m-3 mt-4 wow animated slideInUp" data-wow-delay=".2s">
+    <p>
+      Let's get in touch! If you want to discuss opportunities, collaboration,
+      or just want to say hi, please contact me at kevin.thabo.moore@gmail.com
+    </p>
+    <!--
+    <br />
+    {% include contact/index.html %}
+    <script src="/assets/js/mosquito.js"></script>
+  </div>
 </div>
 -->
 <!--
