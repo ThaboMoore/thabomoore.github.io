@@ -1,3 +1,5 @@
+alert("Mosquito script loaded!");
+
 function createMosquito() {
     const mosquito = document.createElement("img");
     mosquito.src = "assets/img/mosquito.png"; // Make sure you have a mosquito image
