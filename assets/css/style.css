@@ -1609,3 +1609,26 @@ canvas {
   color: #800000; /* Makes bullet points and text maroon */
 }
 
+
+.mosquito {
+    width: 40px; /* Adjust mosquito size */
+    height: auto;
+    position: absolute;
+    opacity: 1;
+    pointer-events: none; /* Prevents interaction with other elements */
+    animation: flyAway 10s ease-in-out forwards;
+}
+
+@keyframes flyAway {
+    0% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { opacity: 0; transform: translateY(-100vh); }
+}
+
+@keyframes mosquitoFlight {
+    0% { transform: translate(0, 0) rotate(0deg); }
+    25% { transform: translate(30px, -20px) rotate(10deg); }
+    50% { transform: translate(-30px, 10px) rotate(-10deg); }
+    75% { transform: translate(20px, -30px) rotate(15deg); }
+    100% { transform: translate(0, 0) rotate(0deg); }
+}
