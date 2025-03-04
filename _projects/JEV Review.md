@@ -34,7 +34,7 @@ Japanese encephalitis virus (JEV) has historically been a major concern in Asia,
 
 <p align="center">
 
-<img src="../assets/img/JEVHostCompetence.png" width="400"/>
+<img src="../assets/img/JEVHostCompetence.jpg" width="400"/>
 
 </p>
 
