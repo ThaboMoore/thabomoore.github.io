@@ -6,7 +6,7 @@ description: A systematic review and calculation of host competence of Australia
 
 # Australian vertebrate hosts of Japanese encephalitis virus - systematic review
 
-## 🤒 Overview
+## 🐷 Overview
 
 Japanese encephalitis virus (JEV) has historically been a major concern in Asia, but recent outbreaks in **Australia** have raised questions about its **transmission pathways** and **host species**. This study systematically reviewed the **vertebrate hosts** that may contribute to JEV maintenance and spread in Australia.
 
