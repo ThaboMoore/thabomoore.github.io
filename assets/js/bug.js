@@ -42,7 +42,7 @@ var BugDispatch = {
         maxLargeTurnDeg: 150,
         maxSmallTurnDeg: 10,
         maxWiggleDeg: 5,
-        imageSprite: '/assets/img/fly-sprite.png',
+        imageSprite: '/assets/img/mosquito-sprite.png',
         bugWidth: 13,
         bugHeight: 14,
         num_frames: 5,
