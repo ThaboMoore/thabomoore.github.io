@@ -41,14 +41,7 @@
     </div>
   </div>
 </div>
-<script src="path/to/bug.js"></script>
-<script>
-  new BugController({
-    minBugs: 5, // Minimum number of bugs
-    maxBugs: 15, // Maximum number of bugs
-    mouseOver: 'die' // Behavior when hovering over a bug
-  });
-</script>
+
 <div id="about" class="container">
   <div class="m-3 wow animated slideInUp" data-wow-delay=".15s">
     <br /><br /><br />
@@ -62,44 +55,45 @@
     </div>
 
     <!-- About Me Text -->
-<div class="col-md-4 justify-text">
-  <p>
-    From wetland to wet labs, my work revolves around 
-    understanding how mosquitoes interact with their environment and the pathogens they carry. 
-    My PhD research combines fieldwork, next-generation sequencing, and disease modelling to explore 
-    how Japanese encephalitis virus circulates at commercial pig farms in Australia. Whether in the field collecting 
-    bloodfed mosquitoes or analysing sequencing data, I am passionate about bridging the gap between 
-    science and public health.
-  </p>
-</div>
+    <div class="col-md-4 justify-text">
+      <p>
+        From wetland to wet labs, my work revolves around 
+        understanding how mosquitoes interact with their environment and the pathogens they carry. 
+        My PhD research combines fieldwork, next-generation sequencing, and disease modelling to explore 
+        how Japanese encephalitis virus circulates at commercial pig farms in Australia. Whether in the field collecting 
+        bloodfed mosquitoes or analysing sequencing data, I am passionate about bridging the gap between 
+        science and public health.
+      </p>
+    </div>
 
     <!-- Right Image -->
     <div class="col-md-4">
       <img src="assets/img/IMG_0725.jpg" alt="Lab Work" class="img-fluid rounded">
     </div>
+  </div>
 </div>
-</div>
+
 <div id="featured-projects">
   <div class="m-3 wow animated slideInUp" data-wow-delay=".15s">
     <br /><br /><br />
     <h2>Latest Projects</h2>
   </div>
   <div class="card-columns m-3 mt-4">
-    <!-- Local Projects -->
     {% for project in site.projects %} {%- if project.tools[-1] == "featured"
     -%} {%- assign project_type = "local" -%} {%- assign project_id =
-    project.name | slugify -%} {%- assign project_img = project.image -%} {%-
+    project.name | slugify -%} {%- assign project_img = project.image -%} {%- 
     assign project_name = project.name -%} {%- assign project_desc =
     project.description -%} {%- assign project_tools = project.tools -%} {%- if
     project.external_url -%} {%- assign project_url = project.external_url -%}
-    {%- else -%} {%- assign project_url = project.url | relative_url -%} {%-
-    endif -%} {% include projects/project-card.html %} {%- endif -%} {% endfor
+    {%- else -%} {%- assign project_url = project.url | relative_url -%} {%- 
+    endif -%} {% include projects/project-card.html %} {%- endif -%} {% endfor 
     %}
   </div>
   <p class="text-center">
     {% include elements/button.html link="/projects" text="See all" %}
   </p>
 </div>
+
 <div id="experience">
   <div class="m-3 wow animated slideInUp" data-wow-delay=".15s">
     <br /><br /><br />
@@ -109,6 +103,7 @@
     {% include about/timeline.html %}
   </div>
 </div>
+
 <div id="contact">
   <div class="m-3 wow animated slideInUp" data-wow-delay=".15s">
     <br /><br /><br />
@@ -127,8 +122,15 @@
   </div>
 </div>
 
-<!-- Now correctly place the mosquito script -->
-<script src="/assets/js/mosquito.js"></script>
+<!-- ✅ Correct Placement of Bug.js (No More Mosquito.js) -->
+<script src="assets/js/bug.js"></script>
+<script>
+  new BugController({
+    minBugs: 5, // Minimum number of bugs
+    maxBugs: 15, // Maximum number of bugs
+    mouseOver: 'die' // Behavior when hovering over a bug
+  });
+</script>
 
 <!--
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
