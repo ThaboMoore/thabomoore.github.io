@@ -43,7 +43,6 @@ var BugDispatch = {
         maxSmallTurnDeg: 10,
         maxWiggleDeg: 5,
         imageSprite: '/assets/img/mosquito.png',
-        num_frames: 1,  // Only one image
         bugWidth: 13,
         bugHeight: 14,
         num_frames: 5,
