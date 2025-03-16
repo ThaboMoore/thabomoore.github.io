@@ -1,5 +1,6 @@
 ---
 name: Bloodfed mosquito collection
+tools: [featured]
 image: ../assets/img/culexpipiens.jpg
 description: What is the best way to collect bloodfed mosquitoes at Australian piggeries? 
 ---
