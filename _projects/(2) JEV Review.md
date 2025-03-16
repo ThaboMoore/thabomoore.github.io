@@ -1,7 +1,9 @@
 ---
 name: Australian Vertebrate Hosts of JEV
+tools: [systematic review]
 image: ../assets/img/JEVcycle.png
 description: A systematic review and calculation of host competence of Australian host of Japanese encephalitis virus. 
+external_url: https://thabomoore.github.io/projects/2-jev-review
 ---
 
 # Australian vertebrate hosts of Japanese encephalitis virus - systematic review
