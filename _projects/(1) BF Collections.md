@@ -47,8 +47,8 @@ I built a homemade aspirator and would use this to suck up mosquitoes from veget
 
 Watch how it's done! 🎥
 
-<iframe width="560" height="315" 
-    src="https://youtu.be/vIpdup7mlZ8" 
-    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-</iframe>
+<p align="center">
+  <a href="https://youtu.be/vIpdup7mlZ8" target="_blank">
+    <img src="../assets/img/video_thumbnail.png" alt="Watch on YouTube" width="560">
+  </a>
+</p>
