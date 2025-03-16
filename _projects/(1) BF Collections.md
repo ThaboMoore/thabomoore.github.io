@@ -53,13 +53,13 @@ Watch how it's done! 🎥
 
 b)  I also created **artifical resting shelters.**
 
-    In the hope that bloodfed mosquitoes would choose to rest inside these shelters.
+In the hope that bloodfed mosquitoes would choose to rest inside these shelters.
 
-    I tested large rubbish bins and felt bags hung from trees.
+I tested large rubbish bins and felt bags hung from trees.
 
 <p align="center">
 
-<img src="../assets/img/FeltBagFigure.png" alt="Image 1" width="45%"/> <img src="../assets/img/LargeBinFigure.png" alt="Image 2" width="45%"/>
+<img src="../assets/img/FeltBagFigure.png" alt="Image 1" width="40%"/> <img src="../assets/img/LargeBinFigure.png" alt="Image 2" width="40%"/>
 
 </p>
 
