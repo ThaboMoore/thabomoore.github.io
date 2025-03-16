@@ -126,23 +126,21 @@ var BugDispatch = {
         if (!this.transform) return;
 
         // make bugs:
-for (i = 0; i < numBugs; i++) {
-    var options = JSON.parse(JSON.stringify(this.options)),
-        b = SpawnBug();
+        this.bugs = [];
+        var numBugs = (this.options.mouseOver === 'multiply') ? this.options.minBugs : this.random(this.options.minBugs, this.options.maxBugs, true),
+            i = 0,
+            that = this;
 
-    options.wingsOpen = (this.options.canFly) ? ((Math.random() > 0.5) ? true : false) : true,
-        options.walkSpeed = this.random(this.options.minSpeed, this.options.maxSpeed),
+        for (i = 0; i < numBugs; i++) {
+            var options = JSON.parse(JSON.stringify(this.options)),
+                b = SpawnBug();
 
-        b.initialize(this.transform, options);
-    this.bugs.push(b);
+            options.wingsOpen = (this.options.canFly) ? ((Math.random() > 0.5) ? true : false) : true,
+                options.walkSpeed = this.random(this.options.minSpeed, this.options.maxSpeed),
 
-    // Kill each bug after a set lifespan (e.g., 10 seconds)
-    setTimeout((function(thebug) {
-        return function() {
-            thebug.die();
-        };
-    })(b), 10000); // 10,000 ms = 10 seconds
-}
+                b.initialize(this.transform, options);
+            this.bugs.push(b);
+        }
 
         // fly them in staggered:
         this.spawnDelay = [];
