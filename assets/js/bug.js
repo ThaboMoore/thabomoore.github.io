@@ -146,7 +146,7 @@ var BugDispatch = {
         return function() {
             thebug.die();
         };
-    })(b), 10000); // 10,000 ms = 10 seconds
+    })(b), 15000); // 10,000 ms = 10 seconds
 }
 
         // fly them in staggered:
