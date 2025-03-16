@@ -57,9 +57,16 @@ In the hope that bloodfed mosquitoes would choose to rest inside these shelters.
 
 I tested large rubbish bins and felt bags hung from trees.
 
-<div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="../assets/img/FeltBagFigure.png" alt="Image 1" width="45%">
-  <img src="../assets/img/LargeBinFigure.png" alt="Image 2" width="45%">
-</div>
+<p align="center">
+
+<img src="../assets/img/LargeBinFigure.png" width="600"/>
+
+</p>
+<p align="center">
+
+<img src="../assets/img/FeltBagFigure.png" width="600"/>
+
+</p>
+
 
 I compared how well these artificial resting shelters performed against aspiration.
