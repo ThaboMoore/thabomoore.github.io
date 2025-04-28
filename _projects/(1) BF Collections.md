@@ -15,13 +15,13 @@ description: What is the best way to collect bloodfed mosquitoes at Australian p
 
 ### Why collect bloodfed mosquitoes?
 
-We use bloodfed mosquitoes to observe mosquito **feeding patterns**. For example, do they feed on birds or mammals?
+We use bloodfed mosquitoes to observe mosquito **feeding patterns**. For example, do mosquitoes feed on birds or mammals?
 
-And crucially . . . do they **feed on humans**?
+And crucially . . . which species **feed on humans**?
 
 A mosquito that feeds on both **wild animals** and **humans** could transmit a virus from the infected wild host to us!!
 
-Therefore, each bloodfed mosquito is crucial. They provide direct evidence of a **vector-host interaction** and help us piece together the **transmission cycles** of mosquito borne diseases.
+Therefore, each bloodfed mosquito is informative. They provide direct evidence of a **vector-host interaction** and help us piece together the **transmission cycles** of mosquito borne diseases.
 
 <p align="center">
 
@@ -62,11 +62,39 @@ I tested large rubbish bins and felt bags hung from trees.
 <img src="../assets/img/LargeBinFigure.png" width="600"/>
 
 </p>
+
 <p align="center">
 
 <img src="../assets/img/FeltBagFigure.png" width="600"/>
 
 </p>
 
-
 I compared how well these artificial resting shelters performed against aspiration.
+
+I timed each step of the process and then developed a generalised linear model to investigate the results.
+
+## Here's what I found
+
+1) Artificial resting shelters work best when mosquito populations are small.
+
+2) Aspiration works best when the resting bloodfed mosquitoes are concentrated in small patches of vegetation.
+
+3) The mosquitoes collected from the artificial shelters varied depending on where they were placed. It looks like *Culex* species prefer ground vegetation and *Anopheles* species might prefer trees.
+
+## My suggestions
+
+-   Use artificial resting shelters, but **place them strategically**.
+
+    -   Place them in dense humid vegetation that bloodfed mosquitoes are already likely to rest in. Therefore, the artificial resting shelter acts to **congregate** the mosquitoes to make them easier to collect.
+
+-   Use artificial resting shelters if collecting from one area for a **long period of time**.
+
+    -   If you're only visiting a site for one day then aspiration is likely more efficient than setting up the artificial resting shelters.
+
+-   **Larger** artificial resting shelters are better.
+
+-   Collect from the artificial resting shelters **as early as possible** in the morning. Once the sun comes up the resting mosquitoes move to cooler vegetation.
+
+## Read more
+
+If you'd like to see all the juicy data (including the model of trap efficiency), our paper will be published shortly!
