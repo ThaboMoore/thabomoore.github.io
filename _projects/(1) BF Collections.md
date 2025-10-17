@@ -97,4 +97,12 @@ I timed each step of the process and then developed a generalised linear model t
 
 ## Read more
 
-If you'd like to see all the juicy data (including the model of trap efficiency), our paper will be published shortly!
+If you'd like to see all the juicy data (including the model of trap efficiency), our paper can be found here:
+
+<p align="center">
+  <a href="https://academic.oup.com/jme/advance-article/doi/10.1093/jme/tjaf139/8287741?utm_source=advanceaccess&utm_campaign=jme&utm_medium=email" 
+     target="_blank" 
+     style="display:inline-block; padding:12px 24px; background-color:#72874E; color:white; border-radius:8px; text-decoration:none; font-weight:bold;">
+    📄 Read the paper
+  </a>
+</p>
