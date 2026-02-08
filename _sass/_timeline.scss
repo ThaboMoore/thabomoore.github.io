@@ -2,7 +2,6 @@
   position: relative;
   border-radius: 0 $rounded-borders $rounded-borders 0;
   padding: 5px 0;
-
   &:after {
     // Left Border
     content: "";
@@ -13,10 +12,8 @@
     left: -4px;
     top: 0;
   }
-
   .timeline-item {
     position: relative;
-
     &:after {
       // Circle
       content: "";
@@ -30,16 +27,35 @@
       top: 8px;
       z-index: 10;
     }
-
     .content {
       margin: 40px;
       padding-bottom: 20px;
       border-bottom: 1px dashed $dark;
-
       .date {
         margin-top: -5px;
         margin-bottom: 15px;
         color: #6c757d;
+      }
+      
+      // New styles for organization and location
+      h5.organization {
+        font-size: 0.95rem;
+        font-weight: 500;
+        margin-top: 0.25rem;
+        margin-bottom: 0.25rem;
+        color: #555;
+      }
+      
+      p.location {
+        font-size: 0.85rem;
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        color: #6c757d;
+        
+        i {
+          font-size: 0.75rem;
+          margin-right: 0.25rem;
+        }
       }
     }
   }
