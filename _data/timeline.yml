@@ -1,19 +1,33 @@
-- title: Research Officer, Queensland Institute of Medical Research Berghofer (QIMRB), Brisbane, Australia
+- position: Research Officer
+  organization: Queensland Institute of Medical Research Berghofer (QIMRB)
+  location: Brisbane, Australia
   from: January 2026
   to: current
-- title: PhD Candidate, Griffith University, Australia
+  
+- position: PhD Candidate
+  organization: Griffith University
+  location: Australia
   from: February 2022
   to: August 2025
   description: • Topic - Japanese encephalitis virus transmission at Australian piggeries<br><br>• Designed and implemented novel bloodfed mosquito collection methods, gathering over 2,500 bloodfeds, including the first samples from commercial piggeries in Australia.<br><br>• Developed specialist skills spanning medical entomology, industry engagement, NGS sequencing, bioinformatics, and network modelling.
-- title: Research Assisant, University College Cork, Ireland
+  
+- position: Research Assistant
+  organization: University College Cork
+  location: Ireland
   from: September 2019
   to: December 2021
-  description: • Topic - Development of wearable devices for Parkinson's disease care.<br><br>• Designed, analysed, and published an innovative method for comparing clinician ratings of Parkinson’s disease severity. Led a systematic review and meta-ethnography on user experience with wearable devices, resulting in a first-author publication cited over 120 times.
-- title: Masters of Public Health Student, University College Cork, Ireland
+  description: • Topic - Development of wearable devices for Parkinson's disease care.<br><br>• Designed, analysed, and published an innovative method for comparing clinician ratings of Parkinson's disease severity. Led a systematic review and meta-ethnography on user experience with wearable devices, resulting in a first-author publication cited over 120 times.
+  
+- position: Masters of Public Health Student
+  organization: University College Cork
+  location: Ireland
   from: August 2017
   to: September 2018
   description: • Advanced Epidemiology track - first class honours.
-- title: Research Assistant, University of Montana, USA
+  
+- position: Research Assistant
+  organization: University of Montana
+  location: USA
   from: August 2011
   to: May 2015
   description: • Callaway Plant Ecology Lab - Assisting/coordinating studies of plant interactions - Germinating, planting, harvesting, and analysing plant samples
